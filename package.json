@@ -7,9 +7,9 @@
   "engines": {
     "node": "16.14.0"
   },
-
+  
   "scripts": {
-    "devStart": "node server.js"
+    "devStart": "nodemon server.js"
   },
 
   "author": "",
