@@ -19,5 +19,7 @@ app.use(express.json())
 const newGirlRouter = require ('./routes/newgirl')
 app.use('/newgirl', newGirlRouter)
 
+let port = process.env.PORT || 3000;
+
 // Starting server
-app.listen(3000, () => console.log(`Server Started`))
+app.listen(port, () => console.log(`Server Started`))
