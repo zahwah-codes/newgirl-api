@@ -17,7 +17,7 @@ app.use(express.json())
 
 // Routes
 const newGirlRouter = require ('./routes/newgirl')
-app.use('/newgirl', newGirlRouter)
+app.use('/', newGirlRouter)
 
 let port = process.env.PORT || 3000;
 

@@ -3,11 +3,10 @@
 
 A REST api to retrieve New Girl quotes when needed (which is pretty much always 💁‍♀️)
 
-This is the simplest server supporting both REST and MongoDB
 
 Currently hosted at: 
 
-![This is an image]()
+![This is an image](https://github.com/zahwah-codes/newgirl-api/blob/55b1dd378dcaf6ea0baadbee04846c268c5c1ee7/giphy.gif)
 
 
 ## REST APIs
@@ -112,3 +111,8 @@ Returns an array with `<season number>` quotes e.g. `GET /season/3`.
     }
 ]
 ```
+
+# Built With
+
+Express - The Node framework used to create a REST API that can interact with the database
+MongoDB - The database used to store and retrieve quotes
