@@ -6,6 +6,10 @@ const mongoose = require('mongoose')
 // Create express app
 const app = express()
 
+app.get('/', (req, res) => {
+   res.send('Express vercel app response')
+})
+
 
 // Cors
 const cors = require("cors");
